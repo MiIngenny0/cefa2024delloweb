@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.todo {
+    display: flex;
+    height: 100vh; /* Establece la altura del contenedor a la altura total de la pantalla */
+}
+
+.col {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden; /* Asegura que no haya desbordamiento de contenido */
+}
+
+p {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.fttd{
+    display: flex;
+    height: 100%;
+    
+}
+
+.ft{
+    width: 33%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.ft:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.contenedor
+{
+    
+    background: #8a7a7a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 500px;
+    width: 500px;
+
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 20%;
+}
+label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
