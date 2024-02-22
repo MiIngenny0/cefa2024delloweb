@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; background-color: hsl(180, 16%, 81%);
+    padding: 2px;
+    z-index: 1000;
+    border: 2px solid hsl(180, 16%, 81%);
+    border-radius: 2%;
+    font-size: 2rem;
+}
+a{
+    display: inline-block;
+    background: rgb(184, 162, 192);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 5rem;
+    width: 75%;
+    text-decoration-line: none;}
+body{
+    background-color: rgb(215, 228, 240);
+}
+.natacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+img{
+    position: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+}

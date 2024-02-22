@@ -1,0 +1,34 @@
+*q
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+   background: #cbe0dd;
+}
+.ingreso{
+    align-items: center;
+    padding: 80px;
+    margin-top: 90px;
+    margin-left: 25%;
+    width: 35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    text-align: center;
+    background-color: rgb(214, 203, 219);
+    border-radius: 3rem;
+}
+.ingreso a{
+    display: inline-block;
+    background: rgb(119, 146, 170);
+    color: rgb(248, 248, 248);
+    padding: 1rem;
+    border-radius: 10rem;
+    width: 15%;
+    text-decoration-line: none;
+}
+.ingreso input{
+ height: 2.2rem;
+ width: 10rem;
+}

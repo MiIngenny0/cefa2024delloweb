@@ -1,0 +1,96 @@
+
+body{
+    background: #f5f5f5;
+}
+.heading
+{
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading h2
+{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading span
+{
+  font-size: 1rem;
+  color: #8a6084d2;}
+  
+.menu {
+    display: flex;
+
+}
+.img-logo
+{
+    font-size: 20%;
+    font-weight: 500;
+    color:#ff92e7;
+
+}
+
+
+.menus a:hover
+{
+  color: #122cecfa;
+}
+.nuestros-img
+{
+    display: flex;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #e29bdc;
+    border-radius: 10px;
+}
+.nuestros.nuestros-img
+{
+    width: 330px;
+    padding: 40px 20 px;
+    background: var(--mai-color);
+    color:aliceblue;
+}
+.nuestros-img img
+{
+    width: 80%;
+    height: 60%;
+}
+.nuestros-img a
+{
+    display: inline-block;
+    margin-top: 30px;
+    background: rgb(240, 108, 240);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .2s;
+}
+.nuestros-img a:hover
+{
+    background:#ff89f5;
+}
+
+.nuestros-img a
+{
+    background:#eec3ea;
+    color: var(--mai-color);
+}
+.nuestros-img a:hover
+{
+    background: #dd6bd4;
+} 
+.container-card
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
