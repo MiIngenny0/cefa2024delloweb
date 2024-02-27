@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Parapente</title>
+    <link rel="stylesheet" href="./css/parapente.css">
+    <script src="./js/parapente.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Parapente</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="viento">Velocidad del viento preferida (km/h):</label>
+                <select id="viento" name="viento" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="altura">Altura máxima de vuelo (metros):</label>
+                <select id="altura" name="altura" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="1000">1000</option>
+                    <option value="2000">2000</option>
+                    <option value="3000">3000</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ubicacion">Ubicación preferida para volar:</label>
+                <select id="ubicacion" name="ubicacion" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Montaña">Montaña</option>
+                    <option value="Playa">Playa</option>
+                    <option value="Campo abierto">Campo abierto</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+
+</body>
+</html>

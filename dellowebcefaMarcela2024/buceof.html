@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Buceo</title>
+    <link rel="stylesheet" href="./css/buceo.css">
+    <script src="./js/buceo.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Buceo</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="agua">Color del agua:</label>
+                <select id="agua" name="agua" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Transparente">Transparente</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="profundidad">Profundidad máxima de buceo (metros):</label>
+                <select id="profundidad" name="profundidad" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="actividad">Actividad principal de buceo:</label>
+                <select id="actividad" name="actividad" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Exploración de arrecifes">Exploración de arrecifes</option>
+                    <option value="Observación de vida marina">Observación de vida marina</option>
+                    <option value="Búsqueda de naufragios">Búsqueda de naufragios</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

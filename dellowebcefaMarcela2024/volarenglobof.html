@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Vuelo en Globo Aerostático</title>
+    <link rel="stylesheet" href="./css/volarenglobo.css">
+    <script src="./js/volarenglobo.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Vuelo en Globo Aerostático</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="altitud">Altitud preferida para el vuelo (metros):</label>
+                <select id="altitud" name="altitud" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="1000">1000</option>
+                    <option value="2000">2000</option>
+                    <option value="3000">3000</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="velocidad">Velocidad de vuelo preferida (km/h):</label>
+                <select id="velocidad" name="velocidad" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ubicacion">Ubicación preferida para el vuelo:</label>
+                <select id="ubicacion" name="ubicacion" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Montaña">Montaña</option>
+                    <option value="Campo">Campo</option>
+                    <option value="Ciudad">Ciudad</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+
+</body>
+</html>

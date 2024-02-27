@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Natación</title>
+    <link rel="stylesheet" href="./css/natacion.css">
+    <script src="./js/natacion.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Natación</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="piscina">Color del agua de la piscina:</label>
+                <select id="piscina" name="piscina" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Transparente">Transparente</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nadadores">Número de nadadores:</label>
+                <select id="nadadores" name="nadadores" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="estilo">Estilo de natación preferido:</label>
+                <select id="estilo" name="estilo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Crol">Crol</option>
+                    <option value="Espalda">Espalda</option>
+                    <option value="Pecho">Pecho</option>
+                    <option value="Mariposa">Mariposa</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+
+</body>
+</html>

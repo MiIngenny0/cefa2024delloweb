@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Paracaidismo</title>
+    <link rel="stylesheet" href="./css/paracidismo.css">
+    <script src="./js/paracaidismo.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Paracaidismo</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="altura">Altura de salto preferida (metros):</label>
+                <select id="altura" name="altura" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="3000">3000</option>
+                    <option value="4000">4000</option>
+                    <option value="5000">5000</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="velocidad">Velocidad de caída libre preferida (km/h):</label>
+                <select id="velocidad" name="velocidad" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="200">200</option>
+                    <option value="250">250</option>
+                    <option value="300">300</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ubicacion">Ubicación preferida para saltar:</label>
+                <select id="ubicacion" name="ubicacion" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Montaña">Montaña</option>
+                    <option value="Desierto">Desierto</option>
+                    <option value="Playa">Playa</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+
+</body>
+</html>

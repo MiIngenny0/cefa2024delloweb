@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Baloncesto</title>
+    <link rel="stylesheet" href="./css/baloncesto.css">
+    <script src="./js/baloncesto.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Baloncesto</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="balon">Colores del balón de baloncesto:</label>
+                <select id="balon" name="balon" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Naranja">Naranja</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Negro">Negro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="jugadores">Número de jugadores de baloncesto:</label>
+                <select id="jugadores" name="jugadores" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="objetivo">Objetivo principal del baloncesto:</label>
+                <select id="objetivo" name="objetivo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Marcar puntos">Marcar puntos</option>
+                    <option value="Hacer canastas">Hacer canastas</option>
+                    <option value="Defender el aro">Defender el aro</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+</body>
+</html>

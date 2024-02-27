@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Fútbol</title>
+    <link rel="stylesheet" href="./css/futbol.css">
+    <script src="./js/futboolf.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Fútbol</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="balon">Colores del balón de <i class="fas fa-futbol"></i>:</label>
+                <select id="balon" name="balon" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Blanco y negro">Blanco y negro</option>
+                    <option value="Rojo y blanco">Rojo y blanco</option>
+                    <option value="Azul y amarillo">Azul y amarillo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="jugadores">Número de jugadores de fútbol:</label>
+                <select id="jugadores" name="jugadores" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="11">11</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="objetivo">Objetivo principal del fútbol:</label>
+                <select id="objetivo" name="objetivo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Ganar el partido">Ganar el partido</option>
+                    <option value="Hacer pases">Hacer pases</option>
+                    <option value="Defender la portería">Defender la portería</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+</body>
+</html>
