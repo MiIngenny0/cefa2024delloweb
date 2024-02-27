@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Surf</title>
+    <link rel="stylesheet" href="css/surfing.css">
+    <script src="./js/surfing.js"></script>
+</head>
+<body style="background: #ccc;">
+    <div class="container">
+        <h2>Formulario de Surf</h2>
+        <form id="formulario">
+            <h2>Ingreso</h2>
+            <div class="form-group">
+                <label for="olas">Tipo de olas preferidas:</label>
+                <select id="olas" name="olas" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Grandes">Grandes</option>
+                    <option value="Pequeñas">Pequeñas</option>
+                    <option value="Tubulares">Tubulares</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tabla">Tipo de tabla de surf utilizada:</label>
+                <select id="tabla" name="tabla" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Longboard">Longboard</option>
+                    <option value="Shortboard">Shortboard</option>
+                    <option value="Fish">Fish</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ubicacion">Ubicación favorita para surfear:</label>
+                <select id="ubicacion" name="ubicacion" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Playa">Playa</option>
+                    <option value="Río">Río</option>
+                    <option value="Lago">Lago</option>
+                </select>
+            </div>
+            <button type="button" onclick="validarFormulario()">Enviar Respuestas</button>
+        </form>
+    </div>
+
+</body>
+</html>
