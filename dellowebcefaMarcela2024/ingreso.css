@@ -1,0 +1,94 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body 
+{
+
+    min-height: 100vh;
+    background: rgb(184, 230, 248);
+    background-size: cover;
+    background-position: right;
+}
+
+img{
+    padding: 60px;
+}
+.prin
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, 2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    color: rgb(2, 2, 2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.prin h1 
+{
+    font-size: 36px;
+    text-align: center;
+}
+.prin .cajita
+{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    margin: 30px 0;
+}
+.cajita input
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+
+}
+.cajita input::placeholder
+{
+    color: #000000;
+}
+.cajita i 
+{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.prin .btn
+{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0)515;
+    font-weight: 600;
+}
+button{
+    display: inline-block;
+    background: rgb(101, 101, 156);
+    color: #ffffff;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem;
+}
