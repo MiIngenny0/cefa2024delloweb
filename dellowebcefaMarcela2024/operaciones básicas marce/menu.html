@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones básicas</title>
+    <script src="operaciones.js"></script>
+</head>
+<body>
+    OPERACIONES BÁSICAS
+    <br>
+    <form >
+        <table>
+            <tr><td>
+            <label for="operador">Operación:</label>
+            <input type="text" id="operador" name="operar">
+            </tr></td>
+        <tr> <td>
+            <label for="num1">Primer número:</label>
+            <input type="number" id="num1" name="primernum">
+        
+
+        </td>
+        <td>
+            <label for="num2">Segundo número:</label>
+            <input type="number" id="num2" name="segnum">
+        </td>
+            <td> <button type="button" onclick="operacion(document.getElementById('num1').value, document.getElementById('num2').value)">CALCULAR</button></td> </tr>
+        </table>
+    </form>
+    
+    Resultados: 
+    <br>
+    Suma: <div id="resultSuma"></div> <br>
+    Resta <div id="resultResta"></div> <br>
+    Multiplicación: <div id="resultMult"></div>
+    División: <div id="resultDiv"></div>
+</body>
+</html>
