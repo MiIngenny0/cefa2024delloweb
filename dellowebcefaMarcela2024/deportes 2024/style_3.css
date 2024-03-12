@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body
+{
+    background-image:url(img/negro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.deportes
+{
+margin-top: 5%;
+text-align: center;
+color: aliceblue;
+}
+
+.diseños-container 
+{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+
+}
+.servicios-box
+{
+
+    padding: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color); 
+   
+}
+.servicios-box
+{
+    background-color: #fdfdfd;
+}
+.servicios-box h3.span
+{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0.4rem;
+}

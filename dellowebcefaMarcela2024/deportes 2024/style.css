@@ -1,0 +1,192 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+  
+    /* background-image:url(img/fondo.jfif); */
+    height: 100vh;
+    background-image: url(img/No\ eres\ muy\ bueno\ haciendo\ deportes_.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario
+{
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    width: 440px;
+    background: #f1b1b1;
+    /* box-shadow: #d149ba 5px 2px 7px 4px  ; */
+    border-radius: 10px;
+}
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #a39d9d;
+    color: #b10000;
+    margin-top: 5%; 
+}
+.formulario form
+{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .Nombre
+{
+    position: relative;
+    border-bottom: 2px solid #a39d9d;
+    margin: 30px 0;
+}
+.Nombre input
+{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.Nombre label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(146, 146, 146);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.Nombre span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #6C3483;
+    transition: .5s;
+}
+
+.Nombre input:focus ~ label,
+.Nombre input:focus ~ label{
+top: -5px;
+color: #696969;
+}
+.Nombre input:focus ~ span::before,
+.Nombre input:focus ~ span::before{
+    width: 100%;
+}
+
+form .password
+{
+    position: relative;
+    border-bottom: 2px solid #a39d9d;
+    margin: 30px 0;
+}
+.password input
+{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.password label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(146, 146, 146);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.password span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #9c0000;
+    transition: .5s;
+}
+
+.password input:focus ~ label,
+.password input:focus ~ label{
+top: -5px;
+color: #696969;
+}
+.password input:focus ~ span::before,
+.password input:focus ~ span::before{
+    width: 100%;
+}
+form .contraseña
+{
+    position: relative;
+    border-bottom: 2px solid #a39d9d;
+    margin: 30px 0;
+}
+.contraseña input
+{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+}
+/* .contraseña label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(146, 146, 146);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.contraseña span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #6C3483;
+    transition: .5s;
+}
+
+.contraseña input:focus ~ label,
+.contraseña input:focus ~ label{
+top: -5px;
+color: #696969;
+}
+.contraseña input:focus ~ span::before,
+.contraseña input:focus ~ span::before{
+    width: 100%;
+} */
+.button
+{
+    width: 100%;
+    height: 50px;
+    background: #7a0000;
+    border: none;
+    border-radius: 25px;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+     
+}
+

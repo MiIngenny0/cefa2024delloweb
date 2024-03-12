@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personas...</title>
+    <script src="programacion.js"></script>
+</head>
+<body>
+    <form>
+        <!-- label es solo para marcar una etiqueta -->
+        <label>Digite su nombre:</label><input type="texto" id="nombreP">
+        <br><br> Digite tu apellido:<input type="text" id="apellidoP"placeholder="y...su apellido">
+        <br> <input type="button" value="Verificar" onclick="revision(document.getElementById('nombreP').value,document.getElementById('apellidoP').value)">
+    </form>
+    <br>
+    ¡Bienvenido!: <div id="nombreI"></div><div id="apellidoI"></div>
+</body>
+</html>
